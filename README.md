@@ -69,7 +69,7 @@ To run and develop this application, some key tools are being leveraged.
 
 [Vagrant](http://vagrantup.com), along with Virtual Box is being used to quickly enable developers to startup the full application simply with `vagrant up`.  A sample Vagrantfile is provided in the repo that only needs to have your Tropo Credentials inserted to get started.  You will need to install Vagrant onto your local workstation before starting.  Vagrant should install Virtual Box automatically.  
 
-[ngrok](https://ngrok.com/) is being used to expose the Tropo Service running within the Vagrant VM to the internet so that API calls can be successfully sent from the Tropo Cloud to the application.  The installation of ngrok into the Vagrant managed VM is done automatically, and no special account is needed to use this tool.  
+[ngrok](https://ngrok.com/) is being used to expose the Tropo Service running within the Vagrant VM to the internet so that API calls can be successfully sent from the Tropo Cloud to the application.  The installation of ngrok into the Vagrant managed VM is done automatically, and no special account is needed to use this tool.  NOTE: you can also download and install ngrok on your laptop for the Extra Credit exercise, although it is not necessary for this main lab.
 
 [Docker](http://docker.com) will be used during the lab exercise to build and execute containers for each of the services of Haciendo.  You should install Docker on your workstation before beginning the lab.  
 
@@ -84,14 +84,14 @@ Pre-Req List
 * [GitHub](https://github.com) - You will need a free account with GitHub.  
 * [Docker Hub](https://hub.docker.com) - You will need a free account with Docker Hub.
 * [Cisco Tropo](https://tropo.com) - You will need a free account with Tropo.  
-  * Your account needs to be enabled for **sending** SMS Messages.  You can request this by sending an email to [support@tropo.com](mailto:support@tropo.com).  This can take 1-2 business days so be sure to send this email in advance of completing the lab.  
+  * Visit the website and click the "Register" button.  You will receive a confirmation email with an activation link. Your account needs to be enabled for **sending** SMS Messages.  
 
 ### Software Installed on Workstation 
 
 * [git](https://git-scm.com/downloads) 
 * [Vagrant + Virtual Box](https://www.vagrantup.com/downloads.html)
     * Pre-download Vagrant box `vagrant box add centos/7 --provider virtualbox`
-* [Docker for X](https://www.docker.com)
+* [Docker for X](https://www.docker.com) There are native Docker clients for Mac or Windows.
 
 
 # Starting the Haciendo All-In-One Application 
